@@ -12,6 +12,11 @@ public:
         next = NULL;
     }
 };
+
+//stack class
+class stack
+{};
+
 int main()
 {
     return 0;
