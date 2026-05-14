@@ -46,6 +46,10 @@ public:
         cout << "Popped value: " << top->data << endl;
     }
 
+    void peek()
+    {
+    }
+
     bool isEmpty()
     {
         return top == NULL;
