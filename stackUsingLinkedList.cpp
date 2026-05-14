@@ -3,11 +3,15 @@ using namespace std;
 
 class Node
 {
-    public:
+public:
     int data;
-    Node* next;
-};
+    Node *next;
 
+    Node()
+    {
+        next = NULL;
+    }
+};
 int main()
 {
     return 0;
